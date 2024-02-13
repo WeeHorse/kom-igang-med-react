@@ -1,9 +1,16 @@
-# React + Vite
+# Kom igång med React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Dag 1
+* Installera med Vite
+* App, Router, navigation, components, pages, props
+  * main.jsx
+  * App.jsx
+  * components/MyRouter.jsx
+  * components/MyNav.jsx
+  * pages/MyPageComponent.jsx
+  * pages/MyOtherPageComponent.jsx
+* JSX, UseState, Form input handling (double binding)
+  * pages/MyJsxPage.jsx
+  * pages/MyUseStatePage.jsx
+  * pages/MyFormInputPage.jsx
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# kom-igang-med-react
