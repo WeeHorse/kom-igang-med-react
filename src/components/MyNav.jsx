@@ -9,7 +9,8 @@ function MyNav() {
       <Link to="/my-jsx-page">My JSX Page</Link> |&nbsp;
       <Link to="/my-use-state-page">My useState Page</Link> |&nbsp;
       <Link to="/my-form-input-page">My Form Input Page</Link> |&nbsp;
-      <Link to="/my-list-page">My List Page</Link>
+      <Link to="/my-list-page">My List Page</Link> |&nbsp;
+      <Link to="/my-use-effect-list-page">My useEffect List Page</Link>
     </nav>
   )
 
