@@ -5,6 +5,7 @@ import MyOtherPageComponent from "../pages/MyOtherPageComponent.jsx"
 import MyJsxPage from "../pages/MyJsxPage.jsx"
 import MyUseStatePage from "../pages/MyUseStatePage.jsx"
 import MyFormInputPage from "../pages/MyFormInputPage.jsx"
+import MyListPage from "../pages/MyListPage.jsx"
 
 
 function MyRouter() {
@@ -18,6 +19,7 @@ function MyRouter() {
         <Route path="/my-jsx-page" element={<MyJsxPage />} />
         <Route path="/my-use-state-page" element={<MyUseStatePage />} />
         <Route path="/my-form-input-page" element={<MyFormInputPage />} />
+        <Route path="/my-list-page" element={<MyListPage />} />
       </Routes>
     </BrowserRouter>
   )
