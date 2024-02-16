@@ -5,6 +5,13 @@ import MyOtherPageComponent from "../pages/MyOtherPageComponent.jsx"
 import MyJsxPage from "../pages/MyJsxPage.jsx"
 import MyUseStatePage from "../pages/MyUseStatePage.jsx"
 import MyFormInputPage from "../pages/MyFormInputPage.jsx"
+import MyDataFromLoaderPage from "../pages/MyDataFromLoaderPage.jsx"
+
+function myLoaderFunction({ params }) {
+  // Perform data fetching, computations, or any other async operations here
+  //const data = await fetch('/data.json');
+  return { loadedProp: 'loadedValue' };
+}
 
 
 function MyRouter() {
@@ -18,9 +25,11 @@ function MyRouter() {
         <Route path="/my-jsx-page" element={<MyJsxPage />} />
         <Route path="/my-use-state-page" element={<MyUseStatePage />} />
         <Route path="/my-form-input-page" element={<MyFormInputPage />} />
+        <Route path="/my-data-from-loader-page" element={<MyDataFromLoaderPage />} loader={myLoaderFunction} />
       </Routes>
     </BrowserRouter>
   )
 }
+
 
 export default MyRouter
