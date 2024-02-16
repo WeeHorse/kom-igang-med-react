@@ -6,7 +6,7 @@ import MyJsxPage from "../pages/MyJsxPage.jsx"
 import MyUseStatePage from "../pages/MyUseStatePage.jsx"
 import MyFormInputPage from "../pages/MyFormInputPage.jsx"
 import MyListPage from "../pages/MyListPage.jsx"
-import MyItemPage from "../pages/MyItemPage.jsx"
+import MyItemPage2 from "../pages/MyItemPage2.jsx"
 
 
 function MyRouter() {
@@ -21,7 +21,7 @@ function MyRouter() {
         <Route path="/my-use-state-page" element={<MyUseStatePage />} />
         <Route path="/my-form-input-page" element={<MyFormInputPage />} />
         <Route path="/my-list-page" element={<MyListPage />} />
-        <Route path="/my-list-page/:name" element={<MyItemPage />} />
+        <Route path="/my-list-page/:name" element={<MyItemPage2 />} />
       </Routes>
     </BrowserRouter>
   )
