@@ -14,7 +14,7 @@
   * pages/MyUseStatePage.jsx
   * pages/MyFormInputPage.jsx
 
-### ### Dag 2 [(branch)](https://github.com/WeeHorse/kom-igang-med-react/tree/dag2)
+### Dag 2 [(branch)](https://github.com/WeeHorse/kom-igang-med-react/tree/dag2)
 
 * Listor / iteratorer (map), reading url params, passing props
   * pages/MyListPage.jsx
